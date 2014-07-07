@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GesturesViewController : UIViewController
+@interface GesturesViewController : UIViewController <UIGestureRecognizerDelegate> //Implementei o 'UIGestureRecognizerDelegate' para reconhecer gestos simultaneos
 
+- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;
+- (IBAction)handlePinch:(UIPinchGestureRecognizer *)recognizer;
+- (IBAction)handleRotate:(UIRotationGestureRecognizer *)recognizer;
+- (IBAction)handleLongPress:(UILongPressGestureRecognizer *)recognizer;
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51130B5183F73E1004B6B05 /* TickleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51130B4183F73E1004B6B05 /* TickleViewController.m */; };
 		B537BA3B183D6BBC0012BB77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B537BA3A183D6BBC0012BB77 /* Foundation.framework */; };
 		B537BA3D183D6BBC0012BB77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B537BA3C183D6BBC0012BB77 /* CoreGraphics.framework */; };
 		B537BA3F183D6BBC0012BB77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B537BA3E183D6BBC0012BB77 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B51130B3183F73E1004B6B05 /* TickleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickleViewController.h; sourceTree = "<group>"; };
+		B51130B4183F73E1004B6B05 /* TickleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickleViewController.m; sourceTree = "<group>"; };
 		B537BA37183D6BBC0012BB77 /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B537BA3A183D6BBC0012BB77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B537BA3C183D6BBC0012BB77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				B537BA4C183D6BBC0012BB77 /* Main.storyboard */,
 				B537BA4F183D6BBC0012BB77 /* GesturesViewController.h */,
 				B537BA50183D6BBC0012BB77 /* GesturesViewController.m */,
+				B51130B3183F73E1004B6B05 /* TickleViewController.h */,
+				B51130B4183F73E1004B6B05 /* TickleViewController.m */,
 				B537BA52183D6BBC0012BB77 /* Images.xcassets */,
 				B537BA41183D6BBC0012BB77 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51130B5183F73E1004B6B05 /* TickleViewController.m in Sources */,
 				B537BA51183D6BBC0012BB77 /* GesturesViewController.m in Sources */,
 				B537BA4B183D6BBC0012BB77 /* GesturesAppDelegate.m in Sources */,
 				B537BA47183D6BBC0012BB77 /* main.m in Sources */,
@@ -461,6 +467,7 @@
 				B537BA6B183D6BBD0012BB77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B537BA6C183D6BBD0012BB77 /* Build configuration list for PBXNativeTarget "GesturesTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				B537BA6E183D6BBD0012BB77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
